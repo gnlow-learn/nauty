@@ -59,3 +59,39 @@ C~
 :CoKI
 :CcKI
 ```
+
+### adjacency matrix
+```
+!geng 3 -c | showg -a
+
+Graph 1, order 3.
+001
+001
+110
+
+Graph 2, order 3.
+011
+101
+110
+```
+
+### dreadnaut
+```
+!geng 3 -c | showg -c
+
+;n3g2;2.
+;n3g1 2;2.
+```
+
+### edges
+```
+!geng 3 -c | showg -e
+
+Graph 1, order 3.
+3 2
+0 2  1 2
+
+Graph 2, order 3.
+3 3
+0 1  0 2  1 2
+```
